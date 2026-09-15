@@ -1,0 +1,1307 @@
+<!DOCTYPE html>
+<!-- build: mobile-fix-v3 -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SalesAI Create for HVAC Companies | Get Found and Trusted Locally</title>
+<meta name="description" content="SalesAI Create helps established HVAC companies get found and chosen locally. More Google Business Profile visibility in 90 days, or we keep working at no additional service fee.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,600;0,700;1,600&family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+
+
+
+
+
+:root {
+  --radius: 1.25rem;
+  --background: #ffffff;
+  --foreground: #0a0c10;
+  --card: #ffffff;
+  --card-foreground: #0a0c10;
+  --popover: #ffffff;
+  --popover-foreground: #0a0c10;
+  --primary: #3ede6f;
+  --primary-foreground: #0a0c10;
+  --secondary: #f9f5ec;
+  --secondary-foreground: #2b2b2c;
+  --muted: #f3effb;
+  --muted-foreground: #606266;
+  --accent: #8e5be8;
+  --accent-foreground: #ffffff;
+  --destructive: #dc2626;
+  --destructive-foreground: #ffffff;
+  --border: #e7e5e8;
+  --input: #e7e5e8;
+  --ring: #3ede6f;
+  --ink: #0a0c10;
+  --text: #2b2b2c;
+  --text-soft: #606266;
+  --green: #3ede6f;
+  --lavender: #f3ebff;
+  --lavender-2: #e9dcff;
+  --cream: #f9f5ec;
+  --line: #e7e5e8;
+  --ease-out: cubic-bezier(.23, 1, .32, 1);
+}
+
+@layer base {
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: #fff; color: var(--ink); font-family: "Inter", Arial, sans-serif; font-size: 18px; font-weight: 500; line-height: 1.4; -webkit-font-smoothing: antialiased; }
+  h1, h2, h3, h4, h5 { font-family: "Roboto", Arial, sans-serif; color: var(--ink); }
+  h1, h2, h3, h4, h5, p, li, a { overflow-wrap: break-word; }
+  img, svg, video { max-width: 100%; }
+  button, input, textarea, select { font: inherit; }
+  button:not(:disabled), [role="button"]:not([aria-disabled="true"]), a[href] { cursor: pointer; }
+  a { color: inherit; text-decoration: none; }
+}
+
+@layer components {
+  .container { width: 100%; max-width: 1536px; margin-inline: auto; padding-inline: 30px; }
+  .flex { min-width: 0; min-height: 0; }
+}
+
+.site-shell { min-height: 100vh; overflow: clip; background: #fff; }
+.announcement-bar { position: relative; z-index: 70; min-height: 40px; display: flex; align-items: center; justify-content: center; gap: 12px; padding: 7px 18px; background: var(--ink); color: #fff; font-size: 14px; line-height: 1.2; }
+.announcement-bar a { display: inline-flex; align-items: center; gap: 5px; padding: 5px 11px; border-radius: 6px; background: var(--green); color: var(--ink); font-weight: 600; }
+
+.site-header { position: absolute; inset: 40px 0 auto; z-index: 60; height: 80px; color: var(--ink); background: rgba(255,255,255,.94); border-bottom: 1px solid rgba(10,12,16,.06); transition: top 180ms var(--ease-out), height 180ms var(--ease-out), box-shadow 180ms var(--ease-out); }
+.site-header-scrolled { position: fixed; top: 0; height: 68px; background: rgba(255,255,255,.94); backdrop-filter: blur(18px); box-shadow: 0 8px 28px rgba(25,22,31,.08); }
+.nav-wrap { max-width: 1320px; height: 100%; margin-inline: auto; padding: 0 30px; display: flex; align-items: center; gap: 38px; }
+.nav-brand { margin-right: auto; }
+.brand-lockup { display: inline-flex; align-items: center; gap: 9px; white-space: nowrap; }
+.brand-icon { width: 27px; height: 27px; color: var(--green); }
+.brand-word { color: var(--ink); font: 700 20px/1 "Roboto", Arial, sans-serif; letter-spacing: -.04em; }
+.brand-divider { width: 1px; height: 25px; margin-inline: 4px; background: #d7d6d9; }
+.brand-product { color: #45464a; font-size: 11px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; }
+.desktop-nav { display: flex; align-items: center; gap: 34px; }
+.desktop-nav a { color: var(--text); font-size: 18px; font-weight: 500; transition: color 160ms var(--ease-out); }
+.desktop-nav a:hover { color: #7670e6; }
+.desktop-cta .button { min-height: 44px; padding: 0 22px; font-size: 14px; }
+.mobile-header-cta { display: none; }
+.menu-button { display: none; border: 0; background: transparent; color: var(--ink); padding: 8px; }
+.mobile-nav { display: none; }
+
+.eyebrow { display: inline-flex; align-items: center; gap: 10px; color: var(--text-soft); font-size: 13px; line-height: 1; font-weight: 600; letter-spacing: .02em; }
+.eyebrow-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); }
+.eyebrow-dark { color: var(--text-soft); }
+
+.button { min-height: 52px; border-radius: 8px; padding: 0 26px; display: inline-flex; align-items: center; justify-content: center; gap: 9px; font-size: 14px; font-weight: 600; transition: transform 160ms var(--ease-out), box-shadow 160ms var(--ease-out), background-color 160ms var(--ease-out); }
+.button:hover { transform: translateY(-2px); box-shadow: 0 12px 24px rgba(10,12,16,.12); }
+.button:active { transform: scale(.97); }
+.button-primary { background: var(--ink); color: #fff; box-shadow: none; }
+.button-primary:hover { background: #24262c; }
+.button-compact { min-height: 44px; padding-inline: 22px; }
+.text-link { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600; }
+.text-link-light { padding: 0 24px; min-height: 52px; border-radius: 8px; background: #8d5ce7; color: #fff; }
+.text-link-light:hover { background: #7848d0; color: #fff; }
+
+.hero { position: relative; padding: 190px 0 0; background: radial-gradient(circle at 50% 58%, rgba(215,194,255,.92), rgba(239,230,255,.76) 34%, rgba(252,249,255,.92) 66%, #fff 84%); color: var(--ink); isolation: isolate; }
+.hero-orb { position: absolute; border-radius: 50%; pointer-events: none; z-index: -2; filter: blur(30px); }
+.hero-orb-one { width: 520px; height: 520px; left: -160px; top: 180px; background: rgba(218,202,255,.45); }
+.hero-orb-two { width: 600px; height: 600px; right: -180px; top: 270px; background: rgba(201,255,220,.38); }
+.hero-grid-pattern { display: none; }
+.hero-inner { min-height: auto; display: grid; grid-template-columns: 1fr; gap: 58px; align-items: center; padding-bottom: 75px; }
+.hero-copy { max-width: 990px; margin-inline: auto; text-align: center; }
+.hero h1 { max-width: 1040px; margin: 28px auto 24px; font: 600 clamp(4.5rem, 7vw, 5.625rem)/1 "Roboto", Arial, sans-serif; letter-spacing: -.04em; color: var(--ink); }
+.hero h1 span { display: inline; color: var(--ink); font-style: italic; }
+.hero-lede { max-width: 820px; margin: 0 auto; color: var(--text-soft); font-size: 20px; line-height: 1.4; }
+.hero-actions { display: flex; align-items: center; justify-content: center; gap: 12px; margin-top: 30px; }
+.hero-trust { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px 28px; margin-top: 28px; }
+.hero-trust span { display: inline-flex; align-items: center; gap: 7px; color: var(--text-soft); font-size: 14px; }
+.hero-trust svg { color: #15a34a; }
+.hero-visual { position: relative; width: 100%; max-width: 1060px; margin-inline: auto; }
+.hvac-card { position: relative; width: 100%; height: 430px; overflow: hidden; border: 1px solid rgba(10,12,16,.08); border-radius: 24px; background: #fff; box-shadow: 0 24px 70px rgba(62,34,112,.16); }
+.hvac-card > img { width: 100%; height: 100%; object-fit: cover; object-position: center 58%; }
+.hvac-card-shade { position: absolute; inset: 0; background: linear-gradient(to right, rgba(5,10,17,.56), transparent 44%, transparent 68%, rgba(5,10,17,.26)), linear-gradient(to top, rgba(5,10,17,.68), transparent 48%); }
+.hvac-card-top { position: absolute; top: 22px; inset-inline: 22px; display: flex; align-items: center; justify-content: space-between; color: var(--green); }
+.live-pill { display: inline-flex; align-items: center; gap: 8px; border: 1px solid rgba(255,255,255,.25); border-radius: 999px; background: rgba(10,12,16,.7); padding: 9px 13px; color: #fff; font-size: 12px; backdrop-filter: blur(10px); }
+.live-pill > span { width: 7px; height: 7px; border-radius: 50%; background: var(--green); }
+.hvac-card-bottom { position: absolute; inset: auto 28px 26px; display: flex; gap: 48px; align-items: end; color: #fff; }
+.hvac-card-bottom > div:last-child { padding-left: 28px; border-left: 1px solid rgba(255,255,255,.3); }
+.hvac-card-bottom small { display: block; margin-bottom: 7px; color: var(--green); font-size: 11px; font-weight: 600; }
+.hvac-card-bottom strong { display: block; font: 600 24px/1.1 "Roboto", Arial, sans-serif; }
+.hvac-card-bottom > div:last-child strong { font-size: 18px; }
+.floating-card { position: absolute; z-index: 2; display: flex; align-items: center; gap: 12px; min-width: 205px; padding: 16px 18px; border: 1px solid #ece9ef; border-radius: 20px; color: var(--ink); background: #fff; box-shadow: 0 16px 36px rgba(50,32,83,.15); }
+.floating-card-one { top: 75px; left: -42px; }
+.floating-card-two { right: -38px; bottom: 68px; }
+.float-icon { width: 38px; height: 38px; display: grid; place-items: center; border-radius: 50%; color: #168d43; background: #e5f9ec; }
+.float-icon.purple { color: #7c4dd0; background: #f0e8ff; }
+.floating-card span { display: block; color: #8a8b90; font-size: 12px; margin-bottom: 3px; }
+.floating-card strong { display: block; font-size: 14px; }
+.hero-marquee { height: 70px; display: flex; align-items: center; overflow: hidden; border-top: 1px solid rgba(10,12,16,.08); border-bottom: 1px solid rgba(10,12,16,.08); background: rgba(255,255,255,.65); }
+.marquee-track { display: flex; align-items: center; min-width: max-content; animation: marquee 28s linear infinite; }
+.marquee-track span { color: #73757a; font-size: 12px; font-weight: 600; letter-spacing: .03em; padding-inline: 32px; }
+.marquee-track i { width: 7px; height: 7px; border-radius: 50%; background: var(--green); }
+
+.problem-section, .benefits-section, .timeline-section, .fit-section { padding: 120px 0; background: #fff; }
+.problem-layout { max-width: 1100px; margin-inline: auto; display: grid; grid-template-columns: 1fr 1fr; gap: 90px; align-items: center; }
+.problem-intro h2, .benefits-heading h2, .timeline-heading h2, .fit-heading h2, .final-cta h2 { margin: 24px 0 0; font: 700 clamp(2.5rem, 4vw, 3rem)/1.1 "Roboto", Arial, sans-serif; letter-spacing: -.04em; }
+.problem-intro h2 em, .fit-heading h2 em { color: var(--ink); font-style: italic; }
+.problem-copy { padding: 42px; border: 1px solid var(--line); border-radius: 24px; background: var(--cream); }
+.problem-copy p { margin: 0 0 22px; color: var(--text-soft); font-size: 18px; line-height: 1.55; }
+.problem-copy p:last-child { margin-bottom: 0; color: var(--text); }
+
+.data-section { position: relative; padding: 120px 0; background: linear-gradient(180deg, #f4ecff 0%, #eee3ff 100%); color: var(--ink); }
+.section-heading { max-width: 860px; margin-inline: auto; text-align: center; }
+.section-heading h2 { margin: 24px 0 20px; font: 700 clamp(2.5rem, 4vw, 3rem)/1.1 "Roboto", Arial, sans-serif; letter-spacing: -.04em; }
+.section-heading > p { margin: 0; color: var(--text-soft); font-size: 20px; line-height: 1.4; }
+.stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 58px; }
+.stat-card { position: relative; min-height: 330px; display: flex; flex-direction: column; padding: 28px; border: 1px solid rgba(10,12,16,.08); border-radius: 24px; background: #fff; box-shadow: 0 10px 28px rgba(62,34,112,.07); transition: transform 180ms var(--ease-out), box-shadow 180ms var(--ease-out); }
+.stat-card:hover { transform: translateY(-4px); box-shadow: 0 18px 38px rgba(62,34,112,.12); }
+.stat-card-accent { background: #fff; }
+.stat-index { position: absolute; top: 25px; right: 26px; color: #a7a7a7; font-size: 12px; }
+.stat-card > strong { color: var(--ink); font: 600 64px/1 "Roboto", Arial, sans-serif; letter-spacing: -.04em; }
+.stat-card > p { margin: 24px 0 12px; color: var(--text); font-size: 16px; line-height: 1.45; }
+.stat-card > small { color: #8a8b90; font-size: 12px; line-height: 1.45; }
+.stat-card > a { display: inline-flex; align-items: center; gap: 5px; margin-top: auto; padding-top: 18px; color: #66686d; font-size: 12px; font-weight: 600; }
+.data-closing { display: grid; grid-template-columns: 1fr auto; gap: 40px; align-items: center; margin-top: 50px; padding: 30px 34px; border: 1px solid rgba(10,12,16,.08); border-radius: 20px; background: rgba(255,255,255,.7); }
+.data-closing p { max-width: 780px; margin: 0; color: var(--text); font-size: 18px; line-height: 1.5; }
+
+.benefits-heading, .timeline-heading { max-width: 780px; margin-inline: auto; text-align: center; }
+.benefits-heading > p { max-width: 720px; margin: 20px auto 0; color: var(--text-soft); font-size: 20px; line-height: 1.4; }
+.benefits-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 58px; }
+.benefit-card { min-height: 240px; display: flex; flex-direction: column; padding: 28px; border: 1px solid var(--line); border-radius: 24px; background: #fff; box-shadow: 0 8px 26px rgba(10,12,16,.05); transition: transform 180ms var(--ease-out), box-shadow 180ms var(--ease-out); }
+.benefit-card:hover { transform: translateY(-3px); box-shadow: 0 18px 36px rgba(10,12,16,.09); }
+.benefit-card > span { align-self: flex-end; color: #a7a7a7; font-size: 12px; }
+.benefit-card > svg { width: 44px; height: 44px; margin-top: 18px; padding: 10px; border-radius: 50%; color: var(--ink); background: var(--green); }
+.benefit-card h3 { max-width: 300px; margin: auto 0 0; font: 700 22px/1.2 "Roboto", Arial, sans-serif; letter-spacing: -.02em; }
+.benefits-bridge { max-width: 850px; margin: 42px auto 0; padding: 23px 28px; border: 1px solid var(--line); border-radius: 20px; background: var(--cream); color: var(--text); font-size: 18px; line-height: 1.5; text-align: center; }
+
+.program-section { position: relative; padding: 120px 0; background: var(--cream); color: var(--ink); overflow: hidden; }
+.program-glow { position: absolute; width: 700px; height: 600px; right: -260px; top: -230px; border-radius: 50%; background: radial-gradient(circle, rgba(193,166,255,.38), transparent 68%); }
+.program-heading { position: relative; max-width: 860px; margin-inline: auto; text-align: center; }
+.program-heading h2 { margin: 24px 0 0; font: 700 clamp(2.5rem, 4vw, 3rem)/1.1 "Roboto", Arial, sans-serif; letter-spacing: -.04em; }
+.program-heading h2 em { color: var(--ink); font-style: italic; }
+.stage-tabs { position: relative; display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; max-width: 920px; margin: 54px auto 0; }
+.stage-tab { min-height: 72px; padding: 10px 14px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: #66686d; font-size: 14px; line-height: 1.25; font-weight: 600; transition: all 180ms var(--ease-out); }
+.stage-tab span { margin-right: 10px; color: #aaa9ad; }
+.stage-tab:hover { border-color: #9a82c7; color: var(--ink); }
+.stage-tab-active { background: var(--green); color: var(--ink); border-color: var(--green); }
+.stage-tab-active span { color: rgba(10,12,16,.55); }
+.stage-panel { position: relative; display: grid; grid-template-columns: .86fr 1.14fr; gap: 22px; margin-top: 20px; }
+.stage-copy, .operations-card { border: 1px solid var(--line); border-radius: 24px; background: #fff; }
+.stage-copy { min-height: 570px; display: flex; flex-direction: column; padding: 42px; }
+.stage-icon { width: 52px; height: 52px; display: grid; place-items: center; margin-bottom: 25px; border-radius: 50%; background: var(--green); color: var(--ink); }
+.stage-copy > span { color: #7b4bc9; font-size: 12px; font-weight: 600; }
+.stage-copy h3 { margin: 9px 0 16px; font: 700 40px/1 "Roboto", Arial, sans-serif; letter-spacing: -.04em; }
+.stage-copy > p { margin: 0; color: var(--text-soft); font-size: 16px; line-height: 1.5; }
+.stage-copy > strong { display: block; margin-top: 25px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--ink); font-size: 14px; }
+.stage-copy ul { display: grid; gap: 10px; margin: 17px 0 0; padding: 0; list-style: none; }
+.stage-copy li { display: flex; gap: 9px; align-items: flex-start; color: var(--text); font-size: 14px; line-height: 1.45; }
+.stage-copy li svg { flex: none; color: #15a34a; }
+.operations-card { align-self: center; padding: 30px; color: var(--ink); box-shadow: 0 18px 45px rgba(10,12,16,.08); }
+.operations-card .brand-word { color: var(--ink); }
+.operations-card .brand-product { color: #45464a; }
+.operations-card .brand-divider { background: #d7d6d9; }
+.operations-top { display: flex; align-items: center; justify-content: space-between; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
+.operations-top > span { color: #7b7c81; font-size: 12px; }
+.operations-kicker { margin-top: 36px; color: #7b4bc9; font-size: 12px; font-weight: 600; }
+.operations-card h4 { max-width: 510px; margin: 11px 0 28px; font: 700 36px/1.05 "Roboto", Arial, sans-serif; letter-spacing: -.04em; }
+.operations-metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 9px; }
+.operations-metrics > div { min-height: 118px; display: flex; flex-direction: column; justify-content: space-between; padding: 16px; border: 1px solid var(--line); border-radius: 20px; background: #fbfbfb; }
+.operations-metrics small { color: #8a8b90; font-size: 10px; }
+.operations-metrics strong { font: 700 24px/1 "Roboto", Arial, sans-serif; }
+.operations-metrics span { display: flex; align-items: center; gap: 5px; color: #168d43; font-size: 11px; }
+.operations-list { display: grid; gap: 8px; margin-top: 15px; }
+.operations-list > div { display: flex; align-items: center; justify-content: space-between; padding: 14px 16px; border-radius: 12px; background: var(--cream); }
+.operations-list span { display: flex; align-items: center; gap: 8px; color: #45464a; font-size: 13px; }
+.operations-list strong { color: #168d43; font-size: 11px; }
+.operations-note { margin: 18px 0 0; padding-top: 17px; border-top: 1px solid var(--line); color: #77787d; font-size: 12px; line-height: 1.5; }
+.program-cta { position: relative; display: grid; grid-template-columns: 1fr auto; gap: 35px; align-items: center; max-width: 920px; margin: 36px auto 0; padding: 24px 28px; border: 1px solid var(--line); border-radius: 20px; background: #fff; }
+.program-cta p { margin: 0; color: var(--text); font-size: 18px; }
+
+.timeline-section { background: #fff; }
+.timeline-heading h2 { margin-bottom: 0; }
+.timeline-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 58px; }
+.timeline-card { min-height: 390px; display: flex; flex-direction: column; padding: 30px; border: 1px solid var(--line); border-radius: 24px; background: var(--cream); }
+.timeline-card-active { background: var(--lavender); color: var(--ink); box-shadow: none; }
+.timeline-top { display: flex; justify-content: space-between; align-items: center; }
+.timeline-top > span { color: #7b4bc9; font-size: 14px; font-weight: 600; }
+.timeline-card-active .timeline-top > span { color: #7b4bc9; }
+.timeline-top small { color: #8a8b90; font-size: 11px; font-weight: 600; }
+.timeline-card h3 { margin: 74px 0 18px; font: 700 28px/1.1 "Roboto", Arial, sans-serif; letter-spacing: -.03em; }
+.timeline-card > p, .timeline-card-active > p { color: var(--text-soft); font-size: 16px; line-height: 1.5; }
+.timeline-result, .timeline-card-active .timeline-result { display: flex; align-items: center; gap: 8px; margin-top: auto; padding-top: 24px; border-top: 1px solid rgba(10,12,16,.1); color: var(--text); font-size: 13px; }
+.timeline-result svg, .timeline-card-active .timeline-result svg { color: #15a34a; }
+
+.guarantee-section { position: relative; padding: 120px 0; background: linear-gradient(180deg, #f4ecff 0%, #eee3ff 100%); color: var(--ink); overflow: hidden; }
+.guarantee-glow { display: none; }
+.guarantee-wrap { position: relative; display: grid; grid-template-columns: 1.14fr .86fr; gap: 20px; align-items: stretch; }
+.guarantee-card, .guarantee-explainer { border: 1px solid rgba(10,12,16,.08); border-radius: 24px; background: #fff; }
+.guarantee-card { padding: 48px; box-shadow: 0 16px 42px rgba(62,34,112,.08); }
+.guarantee-icon { width: 58px; height: 58px; display: grid; place-items: center; margin-bottom: 27px; border-radius: 50%; background: var(--green); color: var(--ink); }
+.guarantee-card h2 { margin: 24px 0 22px; font: 700 clamp(2.4rem, 3.8vw, 3rem)/1.08 "Roboto", Arial, sans-serif; letter-spacing: -.04em; }
+.guarantee-card > p { color: var(--text-soft); font-size: 18px; line-height: 1.5; }
+.guarantee-card .guarantee-start-date { margin: 24px 0 0; padding: 18px 20px; border: 1px solid rgba(10,12,16,.08); border-radius: 16px; background: var(--cream); color: var(--text); font-size: 15px; line-height: 1.5; }
+.guarantee-card > strong { display: block; margin: 28px 0; color: var(--ink); font: 700 20px/1.2 "Roboto", Arial, sans-serif; }
+.guarantee-explainer { padding: 48px; background: rgba(255,255,255,.62); }
+.guarantee-explainer h3 { margin: 0 0 12px; font: 700 22px/1.2 "Roboto", Arial, sans-serif; }
+.guarantee-explainer p { margin: 0 0 34px; color: var(--text-soft); font-size: 16px; line-height: 1.55; }
+.guarantee-explainer .legal-note { padding-top: 24px; border-top: 1px solid rgba(10,12,16,.1); color: #77787d; font-size: 12px; }
+.legal-note a, .footer-legal a { color: #6940b4; font-weight: 600; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.legal-note a:hover, .footer-legal a:hover { color: #4f2b90; }
+
+.fit-section { background: #fff; }
+.fit-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+.fit-heading h2 em { color: var(--ink); }
+.fit-copy { padding: 38px; border: 1px solid var(--line); border-radius: 24px; background: var(--cream); }
+.fit-lede { margin: 0 0 28px; color: var(--text-soft); font-size: 18px; line-height: 1.55; }
+.fit-alignment { margin: -8px 0 28px; padding: 18px 20px; border-radius: 15px; background: var(--lavender); color: var(--text); font-size: 15px; line-height: 1.5; }
+.fit-copy > strong { font: 700 18px/1.2 "Roboto", Arial, sans-serif; }
+.fit-copy ul { margin: 20px 0 0; padding: 0; list-style: none; }
+.fit-copy li { display: flex; gap: 11px; align-items: center; padding: 15px 0; border-bottom: 1px solid rgba(10,12,16,.09); color: var(--text); font-size: 15px; }
+.fit-copy li:last-child { border-bottom: 0; }
+.fit-copy li svg { flex: none; color: #15a34a; }
+
+.final-cta { position: relative; padding: 105px 0; background: var(--ink); color: #fff; overflow: hidden; }
+.final-cta-orb { position: absolute; width: 560px; height: 560px; right: 8%; bottom: -430px; border-radius: 50%; background: rgba(123,76,201,.65); filter: blur(65px); }
+.final-cta-inner { position: relative; display: grid; grid-template-columns: 1.1fr .7fr; gap: 90px; align-items: end; }
+.final-cta .eyebrow { color: #c9c9cc; }
+.final-cta h2 { color: #fff; }
+.final-cta h2 em { display: block; color: #fff; font-style: italic; }
+.final-cta-copy p { margin: 0 0 28px; color: #c5c6c9; font-size: 18px; line-height: 1.55; }
+.final-cta .button-primary { background: var(--green); color: var(--ink); }
+
+.site-footer { padding: 55px 0 45px; background: #fff; color: var(--ink); }
+.footer-top { display: grid; grid-template-columns: auto 1fr auto; gap: 48px; align-items: center; padding-bottom: 35px; border-bottom: 1px solid var(--line); }
+.footer-top > p { color: var(--text-soft); font-size: 14px; }
+.footer-links { display: flex; flex-wrap: wrap; gap: 22px; }
+.footer-links a { color: var(--text); font-size: 14px; }
+.footer-links a:hover { color: #7b4bc9; }
+.source-list { padding-top: 30px; }
+.source-list > p { color: #77787d; font-size: 12px; line-height: 1.5; }
+.source-list ol { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px 24px; margin: 20px 0 25px; padding: 0; list-style: none; }
+.source-list a { color: #77787d; font-size: 12px; line-height: 1.4; }
+.source-list a:hover { color: #7b4bc9; }
+.footer-legal { padding-top: 22px; border-top: 1px solid var(--line); }
+.source-list > small { display: block; margin-top: 20px; color: #999a9d; font-size: 12px; }
+
+.terms-page { min-height: 100vh; background: #fff; color: var(--text); }
+.terms-announcement { min-height: 40px; display: flex; align-items: center; justify-content: center; gap: 12px; padding: 8px 18px; background: var(--ink); color: #fff; font-size: 14px; line-height: 1.2; text-align: center; }
+.terms-announcement a { padding: 5px 11px; border-radius: 6px; background: var(--green); color: var(--ink); font-weight: 600; }
+.terms-header { height: 80px; border-bottom: 1px solid rgba(10,12,16,.07); background: rgba(255,255,255,.96); }
+.terms-header-inner, .terms-footer-inner, .terms-layout { width: min(100% - 60px, 1240px); margin-inline: auto; }
+.terms-header-inner { height: 100%; display: flex; align-items: center; gap: 28px; }
+.terms-brand { margin-right: auto; }
+.terms-back-link { color: var(--text); font-size: 15px; }
+.terms-back-link:hover { color: #6940b4; }
+.terms-hero { position: relative; overflow: hidden; padding: 100px 0 84px; background: radial-gradient(circle at 52% 35%, rgba(215,194,255,.8), rgba(239,230,255,.7) 38%, rgba(252,249,255,.94) 72%, #fff 92%); }
+.terms-hero::after { content: ""; position: absolute; width: 480px; height: 480px; right: -150px; bottom: -300px; border-radius: 50%; background: rgba(62,222,111,.18); filter: blur(42px); }
+.terms-hero-inner { position: relative; z-index: 1; width: min(100% - 60px, 920px); margin-inline: auto; }
+.terms-hero h1 { max-width: 780px; margin: 26px 0 18px; color: var(--ink); font: 600 clamp(3.6rem, 8vw, 5.625rem)/.98 "Roboto", Arial, sans-serif; letter-spacing: -.04em; }
+.terms-effective { margin: 0; color: #6940b4; font-size: 15px; font-weight: 600; }
+.terms-intro { max-width: 780px; margin: 26px 0 0; color: var(--text-soft); font-size: 20px; line-height: 1.5; }
+.terms-layout { display: grid; grid-template-columns: 260px minmax(0, 760px); gap: 70px; justify-content: center; padding-top: 80px; padding-bottom: 110px; }
+.terms-nav { position: sticky; top: 28px; align-self: start; padding: 24px; border: 1px solid var(--line); border-radius: 20px; background: var(--cream); }
+.terms-nav strong { display: block; margin-bottom: 15px; color: var(--ink); font-family: "Roboto", Arial, sans-serif; }
+.terms-nav a { display: block; padding: 8px 0; color: var(--text-soft); font-size: 13px; line-height: 1.35; }
+.terms-nav a:hover { color: #6940b4; }
+.terms-content { min-width: 0; }
+.terms-content > h2 { margin: 0 0 32px; scroll-margin-top: 28px; color: var(--ink); font: 700 clamp(2.4rem, 5vw, 3.4rem)/1.06 "Roboto", Arial, sans-serif; letter-spacing: -.035em; }
+.terms-content section { padding: 34px 0; border-top: 1px solid var(--line); scroll-margin-top: 28px; }
+.terms-content section:first-of-type { border-top: 0; padding-top: 0; }
+.terms-content h3 { margin: 0 0 17px; color: var(--ink); font: 700 25px/1.2 "Roboto", Arial, sans-serif; letter-spacing: -.025em; }
+.terms-content p { margin: 0 0 18px; color: var(--text-soft); font-size: 18px; line-height: 1.65; }
+.terms-content p:last-child { margin-bottom: 0; }
+.terms-content ol { margin: 0 0 18px; padding-left: 24px; }
+.terms-content li { margin: 0 0 12px; padding-left: 6px; color: var(--text-soft); font-size: 18px; line-height: 1.65; }
+.terms-footer { padding: 55px 0 45px; border-top: 1px solid var(--line); background: #fff; }
+.terms-footer-top { display: grid; grid-template-columns: auto 1fr auto; gap: 48px; align-items: center; padding-bottom: 30px; border-bottom: 1px solid var(--line); }
+.terms-footer-top > p { margin: 0; color: var(--text-soft); font-size: 14px; }
+.terms-footer-meta { display: flex; justify-content: space-between; gap: 24px; padding-top: 25px; color: #88898d; font-size: 12px; }
+.terms-footer-meta a { color: #6940b4; font-weight: 600; }
+
+.reveal-up { animation: reveal-up 650ms var(--ease-out) both; }
+.reveal-delay { animation-delay: 100ms; }
+@keyframes reveal-up { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes marquee { to { transform: translateX(-50%); } }
+
+@media (max-width: 1080px) {
+  .desktop-nav { gap: 22px; }
+  .desktop-nav a { font-size: 14px; }
+  .floating-card-one { left: 12px; }
+  .floating-card-two { right: 12px; }
+  .stage-panel { grid-template-columns: .9fr 1.1fr; }
+}
+
+@media (max-width: 900px) {
+  .container { padding-inline: 24px; }
+  .desktop-nav, .desktop-cta { display: none; }
+  .site-header-scrolled .mobile-header-cta { display: inline-flex; align-items: center; min-height: 36px; padding: 0 13px; border-radius: 8px; background: var(--ink); color: #fff; font-size: 12px; font-weight: 600; white-space: nowrap; }
+  .menu-button { display: inline-flex; }
+  .mobile-nav { display: grid; position: absolute; top: 70px; inset-inline: 16px; padding: 12px; border: 1px solid var(--line); border-radius: 20px; background: rgba(255,255,255,.98); box-shadow: 0 22px 50px rgba(40,30,55,.14); }
+  .mobile-nav a { display: flex; justify-content: space-between; padding: 14px; border-bottom: 1px solid var(--line); color: var(--text); font-size: 14px; }
+  .mobile-nav a:last-child { margin-top: 7px; border: 0; border-radius: 8px; background: var(--ink); color: #fff; font-weight: 600; }
+  .hero { padding-top: 168px; }
+  .hero h1 { font-size: clamp(4rem, 10vw, 5.625rem); }
+  .problem-layout, .guarantee-wrap, .fit-grid, .final-cta-inner { grid-template-columns: 1fr; gap: 38px; }
+  .stats-grid, .benefits-grid { grid-template-columns: repeat(2, 1fr); }
+  .stage-tabs { overflow-x: auto; grid-template-columns: repeat(4, minmax(145px, 1fr)); padding-bottom: 6px; -webkit-overflow-scrolling: touch; scroll-snap-type: x proximity; }
+  .stage-tab { scroll-snap-align: start; }
+  .stage-panel { grid-template-columns: 1fr; }
+  .stage-copy { min-height: auto; }
+  .timeline-grid { grid-template-columns: 1fr; }
+  .timeline-card { min-height: 310px; }
+  .timeline-card h3 { margin-top: 55px; }
+  .source-list ol { grid-template-columns: repeat(2, 1fr); }
+  .terms-layout { grid-template-columns: 1fr; gap: 32px; }
+  .terms-nav { position: static; display: grid; grid-template-columns: repeat(2, 1fr); gap: 0 18px; }
+  .terms-nav strong { grid-column: 1 / -1; }
+  .terms-footer-top { grid-template-columns: 1fr; gap: 20px; }
+}
+
+@media (max-width: 620px) {
+  body { font-size: 16px; }
+  .announcement-bar { min-height: 42px; gap: 8px; font-size: 11px; text-align: center; }
+  .announcement-bar a { padding: 4px 7px; font-size: 10px; }
+  .container { padding-inline: 18px; }
+  .site-header { top: 42px; height: 66px; }
+  .site-header-scrolled { top: 0; }
+  .nav-wrap { padding-inline: 14px; gap: 8px; }
+  .brand-icon { width: 23px; height: 23px; }
+  .brand-word { font-size: 17px; }
+  .brand-divider { height: 20px; margin-inline: 2px; }
+  .brand-product { font-size: 9px; }
+  .site-header-scrolled .mobile-header-cta { min-height: 32px; padding-inline: 9px; font-size: 9px; }
+  .hero { padding-top: 146px; }
+  .hero-inner { gap: 40px; padding-bottom: 52px; }
+  .hero h1 { margin-top: 22px; font-size: clamp(3.25rem, 15vw, 4.2rem); line-height: .98; letter-spacing: -.045em; }
+  .hero-lede { font-size: 17px; line-height: 1.45; }
+  .hero-actions { flex-direction: column; }
+  .button, .text-link-light { width: 100%; }
+  .hero-trust { display: grid; gap: 10px; text-align: left; }
+  .hvac-card { height: 420px; }
+  .hvac-card > img { object-position: 57% center; }
+  .floating-card { min-width: 155px; padding: 11px 12px; border-radius: 16px; }
+  .floating-card-one { top: 68px; left: -5px; }
+  .floating-card-two { right: -5px; bottom: auto; top: 34%; }
+  .floating-card span { font-size: 10px; }
+  .floating-card strong { font-size: 12px; }
+  .hvac-card-bottom { display: grid; grid-template-columns: 1fr; gap: 12px; }
+  .hvac-card-bottom > div:last-child { padding: 12px 0 0; border-left: 0; border-top: 1px solid rgba(255,255,255,.3); }
+  .hero-marquee { height: 58px; }
+  .problem-section, .data-section, .benefits-section, .program-section, .timeline-section, .guarantee-section, .fit-section, .final-cta { padding: 82px 0; }
+  .problem-intro h2, .section-heading h2, .benefits-heading h2, .program-heading h2, .timeline-heading h2, .fit-heading h2, .final-cta h2 { font-size: 40px; line-height: 1.08; }
+  .problem-copy, .fit-copy { padding: 25px; }
+  .problem-copy p, .section-heading > p, .benefits-heading > p, .fit-lede, .final-cta-copy p { font-size: 17px; }
+  .stats-grid, .benefits-grid { grid-template-columns: 1fr; }
+  .stat-card { min-height: 290px; }
+  .data-closing, .program-cta { grid-template-columns: 1fr; padding: 24px; }
+  .benefit-card { min-height: 205px; }
+  .stage-copy, .operations-card, .guarantee-card, .guarantee-explainer { padding: 27px; }
+  .stage-copy h3 { font-size: 36px; }
+  .operations-metrics { grid-template-columns: 1fr; }
+  .operations-metrics > div { min-height: 92px; }
+  .guarantee-card h2 { font-size: 38px; }
+  .footer-top { grid-template-columns: 1fr; gap: 18px; }
+  .source-list ol { grid-template-columns: 1fr; }
+  .terms-announcement { min-height: 42px; font-size: 11px; }
+  .terms-announcement a { font-size: 10px; }
+  .terms-header-inner, .terms-footer-inner, .terms-layout, .terms-hero-inner { width: min(100% - 36px, 1240px); }
+  .terms-header { height: 66px; }
+  .terms-back-link { display: none; }
+  .terms-header .button { width: auto; min-height: 38px; padding-inline: 13px; font-size: 11px; }
+  .terms-hero { padding: 74px 0 64px; }
+  .terms-hero h1 { font-size: clamp(3.1rem, 15vw, 4.1rem); }
+  .terms-intro { font-size: 17px; }
+  .terms-layout { padding-top: 52px; padding-bottom: 80px; }
+  .terms-nav { grid-template-columns: 1fr; padding: 22px; }
+  .terms-content > h2 { font-size: 38px; }
+  .terms-content h3 { font-size: 23px; }
+  .terms-content section { padding: 28px 0; }
+  .terms-content p, .terms-content li { font-size: 16px; }
+  .terms-footer-meta { flex-direction: column; }
+  .terms-footer .button { width: auto; }
+}
+
+@media (max-width: 400px) {
+  .container { padding-inline: 14px; }
+  .hero h1 { font-size: clamp(2.6rem, 14vw, 3.25rem); }
+  .problem-intro h2, .section-heading h2, .benefits-heading h2, .program-heading h2, .timeline-heading h2, .fit-heading h2, .final-cta h2 { font-size: 32px; }
+  .guarantee-card h2 { font-size: 30px; line-height: 1.12; }
+  .stage-copy h3 { font-size: 29px; }
+  .operations-card h4 { font-size: 29px; }
+  .terms-content > h2 { font-size: 31px; }
+  .hvac-card { height: 380px; }
+  .floating-card { min-width: 138px; padding: 9px 10px; gap: 8px; }
+  .float-icon { width: 30px; height: 30px; }
+  .floating-card-one { top: 68px; left: 0; }
+  .floating-card-two { right: 0; bottom: auto; top: 37%; }
+  .timeline-card { min-height: auto; padding-bottom: 26px; }
+  .stat-card { min-height: auto; padding-bottom: 26px; }
+  .benefit-card { min-height: auto; padding-bottom: 24px; }
+  .problem-copy, .fit-copy, .stage-copy, .operations-card, .guarantee-card, .guarantee-explainer { padding: 20px; }
+  .data-closing, .program-cta { padding: 20px; }
+  .marquee-track span { padding-inline: 22px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal-up, .marquee-track { animation: none; }
+  *, *::before, *::after { transition-duration: .01ms !important; }
+}
+
+</style>
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true"><symbol id="lu-arrow-down" viewBox="0 0 24 24"><svg
+  class="lucide lucide-arrow-down"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M12 5v14" />
+  <path d="m19 12-7 7-7-7" /></symbol><symbol id="lu-arrow-up-right" viewBox="0 0 24 24"><svg
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" /></symbol><symbol id="lu-bar-chart-3" viewBox="0 0 24 24"><svg
+  class="lucide lucide-bar-chart-3"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M3 3v16a2 2 0 0 0 2 2h16" />
+  <path d="M18 17V9" />
+  <path d="M13 17V5" />
+  <path d="M8 17v-3" /></symbol><symbol id="lu-check" viewBox="0 0 24 24"><svg
+  class="lucide lucide-check"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 6 9 17l-5-5" /></symbol><symbol id="lu-clipboard-check" viewBox="0 0 24 24"><svg
+  class="lucide lucide-clipboard-check"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
+  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+  <path d="m9 14 2 2 4-4" /></symbol><symbol id="lu-file-text" viewBox="0 0 24 24"><svg
+  class="lucide lucide-file-text"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" />
+  <path d="M14 2v5a1 1 0 0 0 1 1h5" />
+  <path d="M10 9H8" />
+  <path d="M16 13H8" />
+  <path d="M16 17H8" /></symbol><symbol id="lu-gauge" viewBox="0 0 24 24"><svg
+  class="lucide lucide-gauge"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m12 14 4-4" />
+  <path d="M3.34 19a10 10 0 1 1 17.32 0" /></symbol><symbol id="lu-map-pin" viewBox="0 0 24 24"><svg
+  class="lucide lucide-map-pin"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+  <circle cx="12" cy="10" r="3" /></symbol><symbol id="lu-menu" viewBox="0 0 24 24"><svg
+  class="lucide lucide-menu"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M4 5h16" />
+  <path d="M4 12h16" />
+  <path d="M4 19h16" /></symbol><symbol id="lu-phone-call" viewBox="0 0 24 24"><svg
+  class="lucide lucide-phone-call"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M13 2a9 9 0 0 1 9 9" />
+  <path d="M13 6a5 5 0 0 1 5 5" />
+  <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384" /></symbol><symbol id="lu-search" viewBox="0 0 24 24"><svg
+  class="lucide lucide-search"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m21 21-4.34-4.34" />
+  <circle cx="11" cy="11" r="8" /></symbol><symbol id="lu-shield-check" viewBox="0 0 24 24"><svg
+  class="lucide lucide-shield-check"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+  <path d="m9 12 2 2 4-4" /></symbol><symbol id="lu-star" viewBox="0 0 24 24"><svg
+  class="lucide lucide-star"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" /></symbol><symbol id="lu-target" viewBox="0 0 24 24"><svg
+  class="lucide lucide-target"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="6" />
+  <circle cx="12" cy="12" r="2" /></symbol><symbol id="lu-trending-up" viewBox="0 0 24 24"><svg
+  class="lucide lucide-trending-up"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M16 7h6v6" />
+  <path d="m22 7-8.5 8.5-5-5L2 17" /></symbol><symbol id="lu-wrench" viewBox="0 0 24 24"><svg
+  class="lucide lucide-wrench"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z" /></symbol><symbol id="lu-x" viewBox="0 0 24 24"><svg
+  class="lucide lucide-x"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M18 6 6 18" />
+  <path d="m6 6 12 12" /></symbol></svg>
+<!-- ============ HOME PAGE ============ -->
+<div class="site-shell" id="page-home">
+  <div class="announcement-bar">
+    <span>SalesAI Create is built for HVAC companies.</span>
+    <a href="#guarantee">See how the 90-day visibility guarantee works <i data-lucide="arrow-up-right" width="13" height="13"></i></a>
+  </div>
+  <header class="site-header" id="siteHeader">
+    <div class="nav-wrap">
+      <a href="#top" class="nav-brand" aria-label="SalesAI Create home">
+        <div class="brand-lockup" aria-label="SalesAI Create">
+          <svg class="brand-icon" viewBox="0 0 40 40" aria-hidden="true"><path d="M9 5h22v22h-7V12H9V5Z" fill="currentColor"/><path d="M5 9h15v7H12v12h12v7H5V9Z" fill="currentColor" opacity=".82"/><circle cx="18" cy="26" r="4.5" fill="#07120f"/></svg>
+          <span class="brand-word">SalesAI</span><span class="brand-divider"></span><span class="brand-product">Create</span>
+        </div>
+      </a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#benefits">Be Found and Trusted</a>
+        <a href="#program">Your Visibility Plan</a>
+        <a href="#timeline">First 90 days</a>
+        <a href="#guarantee">90-Day Visibility Guarantee</a>
+      </nav>
+      <div class="desktop-cta"><a class="button button-primary button-compact" href="https://salesai.com/demo" target="_blank" rel="noreferrer">Book a 15-Minute Demo <i data-lucide="arrow-up-right" width="15" height="15"></i></a></div>
+      <a class="mobile-header-cta" href="https://salesai.com/demo" target="_blank" rel="noreferrer">Book a 15-Minute Demo</a>
+      <button class="menu-button" id="menuButton" aria-label="Open menu" aria-expanded="false"><i data-lucide="menu" width="24" height="24"></i></button>
+    </div>
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation" style="display:none">
+      <a href="#benefits">Be Found and Trusted</a>
+      <a href="#program">Your Visibility Plan</a>
+      <a href="#timeline">First 90 days</a>
+      <a href="#guarantee">90-Day Visibility Guarantee</a>
+      <a href="https://salesai.com/demo" target="_blank" rel="noreferrer">Book a 15-Minute Demo <i data-lucide="arrow-up-right" width="15" height="15"></i></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-orb hero-orb-one"></div>
+      <div class="hero-orb hero-orb-two"></div>
+      <div class="hero-grid-pattern"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy reveal-up">
+          <div class="eyebrow"><span class="eyebrow-dot"></span>SalesAI Create for HVAC Companies</div>
+          <h1>More Homeowners Finding Your HVAC Company in <span>90 Days. Guaranteed.</span></h1>
+          <p class="hero-lede">If your Google Business Profile views do not increase in your first 90 days, we keep doing the visibility work at no additional service fee until they do. No contracts. No hidden fees.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://salesai.com/demo" target="_blank" rel="noreferrer">Book a 15-Minute Demo <i data-lucide="arrow-up-right" width="18" height="18"></i></a>
+            <a class="text-link text-link-light" href="#guarantee">See how the guarantee works <i data-lucide="arrow-down" width="16" height="16"></i></a>
+          </div>
+          <div class="hero-trust">
+            <span><i data-lucide="check" width="14" height="14"></i> Built for HVAC companies</span>
+            <span><i data-lucide="check" width="14" height="14"></i> Less marketing work on your plate</span>
+            <span><i data-lucide="check" width="14" height="14"></i> Clear monthly accountability</span>
+          </div>
+        </div>
+        <div class="hero-visual reveal-up reveal-delay">
+          <div class="hvac-card">
+            <img src="data:image/webp;base64,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" alt="HVAC technician inspecting a residential air-conditioning unit" width="837" height="338">
+            <div class="hvac-card-shade"></div>
+            <div class="hvac-card-top">
+              <span class="live-pill"><span></span> Helping homeowners find you locally</span>
+              <i data-lucide="wrench" width="20" height="20"></i>
+            </div>
+            <div class="hvac-card-bottom">
+              <div><small>SALESAI CREATE</small><strong>Built for HVAC</strong></div>
+              <div><small>GUARANTEE MEASURE</small><strong>Google Business Profile views</strong></div>
+            </div>
+          </div>
+          <div class="floating-card floating-card-one">
+            <div class="float-icon"><i data-lucide="map-pin" width="17" height="17"></i></div>
+            <div><span>Priority areas</span><strong>Where you want more work</strong></div>
+          </div>
+          <div class="floating-card floating-card-two">
+            <div class="float-icon purple"><i data-lucide="clipboard-check" width="17" height="17"></i></div>
+            <div><span>Monthly accountability</span><strong>Work clearly documented</strong></div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-marquee" aria-label="HVAC Create capabilities">
+        <div class="marquee-track">
+          <span>BE EASIER TO FIND ON GOOGLE</span><i></i>
+          <span>SHOW UP FOR LOCAL HVAC SEARCHES</span><i></i>
+          <span>BUILD TRUST THROUGH HVAC REVIEWS</span><i></i>
+          <span>FOCUS ON AREAS YOU WANT TO GROW</span><i></i>
+          <span>TARGET QUALIFIED SERVICE &amp; REPLACEMENT OPPORTUNITIES</span><i></i>
+          <span>CLEAR MARKETING ACCOUNTABILITY</span><i></i>
+          <span>BE EASIER TO FIND ON GOOGLE</span><i></i>
+          <span>SHOW UP FOR LOCAL HVAC SEARCHES</span><i></i>
+        </div>
+      </div>
+    </section>
+
+    <section class="problem-section" id="problem">
+      <div class="container problem-layout">
+        <div class="problem-intro">
+          <div class="eyebrow eyebrow-dark"><span class="eyebrow-dot"></span>The problem</div>
+          <h2>Great HVAC Work Is Not Enough If Homeowners <em>Cannot Find and Trust You.</em></h2>
+        </div>
+        <div class="problem-copy">
+          <p>You know the pattern: July is packed, then shoulder season leaves open slots. Larger competitors can outspend you. Shared-lead programs can send the same homeowner inquiry to several companies. And a marketing report is not enough if it cannot show whether your investment is creating qualified service and replacement opportunities.</p>
+          <p>When homeowners need AC repair, furnace replacement, or maintenance, they often search nearby companies, read reviews, and decide who to call. If your company is hard to find or does not look trustworthy in local search, you can lose the opportunity before your team has a chance to earn the job. Create helps you show up more credibly in the service areas you want to serve.</p>
+          <p>The goal is to make your company easier to find directly when homeowners search, so shared lead sellers are not your only path to new work.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="data-section" id="data">
+      <div class="container">
+        <div class="section-heading dark-heading">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-dot"></span>The data</div>
+            <h2>The Numbers Behind Every HVAC Job You Win or Lose</h2>
+          </div>
+          <p>Published industry research and platform data show how homeowners and local consumers choose service businesses. Visibility and reputation are not nice-to-haves. They decide who gets the call.</p>
+        </div>
+        <div class="stats-grid" id="statsGrid"></div>
+        <div class="data-closing">
+          <p>Create is built to move every one of these numbers in your favor: visibility, review volume, review responses, and a complete, active Google Business Profile.</p>
+          <a class="button button-primary" href="https://salesai.com/demo" target="_blank" rel="noreferrer">Book a 15-Minute Demo <i data-lucide="arrow-up-right" width="18" height="18"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits-section" id="benefits">
+      <div class="container">
+        <div class="benefits-heading">
+          <div class="eyebrow eyebrow-dark"><span class="eyebrow-dot"></span>What Create does</div>
+          <h2>Build a Stronger Local Presence for Your HVAC Business</h2>
+          <p>Create helps make your HVAC company easier to find and trust in the service areas you want to serve. We handle the ongoing marketing work so you can focus on crews, customers, and the schedule.</p>
+        </div>
+        <div class="benefits-grid" id="benefitsGrid"></div>
+        <p class="benefits-bridge">Focus your local presence on the service, maintenance, and replacement opportunities you want in the areas you can serve profitably.</p>
+      </div>
+    </section>
+
+    <section class="program-section" id="program">
+      <div class="program-glow"></div>
+      <div class="container">
+        <div class="program-heading">
+          <div class="eyebrow"><span class="eyebrow-dot"></span>A Four-Stage Plan</div>
+          <h2>Four Stages. One Purpose. <em>Help More Local Homeowners Find and Choose Your HVAC Company.</em></h2>
+        </div>
+        <div class="stage-tabs" role="tablist" aria-label="SalesAI Create stages" id="stageTabs"></div>
+        <div class="stage-panel">
+          <div class="stage-copy" id="stageCopy"></div>
+          <div class="operations-card" aria-label="Illustrative monthly owner dashboard">
+            <div class="operations-top">
+              <div class="brand-lockup" aria-label="SalesAI Create">
+                <svg class="brand-icon" viewBox="0 0 40 40" aria-hidden="true"><path d="M9 5h22v22h-7V12H9V5Z" fill="currentColor"/><path d="M5 9h15v7H12v12h12v7H5V9Z" fill="currentColor" opacity=".82"/><circle cx="18" cy="26" r="4.5" fill="#07120f"/></svg>
+                <span class="brand-word">SalesAI</span><span class="brand-divider"></span><span class="brand-product">Create</span>
+              </div>
+              <span>Monthly owner update</span>
+            </div>
+            <div class="operations-kicker">YOUR SERVICE-AREA PLAN</div>
+            <h4>See what was handled and the local visibility indicators we monitor.</h4>
+            <div class="operations-metrics">
+              <div><small>GOOGLE PROFILE</small><strong>Updated</strong><span><i data-lucide="check" width="12" height="12"></i> Key details easier to review</span></div>
+              <div><small>LOCAL BUSINESS INFO</small><strong>Managed</strong><span><i data-lucide="trending-up" width="12" height="12"></i> Across key local sites</span></div>
+              <div><small>OWNER UPDATE</small><strong>Monthly</strong><span><i data-lucide="clipboard-check" width="12" height="12"></i> Work and signals summarized</span></div>
+            </div>
+            <div class="operations-list">
+              <div><span><i data-lucide="search" width="15" height="15"></i> Local search presence</span><strong>Work underway</strong></div>
+              <div><span><i data-lucide="star" width="15" height="15"></i> Review follow-up</span><strong>Active</strong></div>
+              <div><span><i data-lucide="bar-chart-3" width="15" height="15"></i> Owner update</span><strong>Scheduled</strong></div>
+              <div><span><i data-lucide="map-pin" width="15" height="15"></i> Priority service areas</span><strong>Monitored</strong></div>
+            </div>
+            <p class="operations-note">We show you what was handled and which local visibility indicators changed. Those indicators are not the same as booked jobs, revenue, or ROI.</p>
+          </div>
+        </div>
+        <div class="program-cta">
+          <p>Book a 15-Minute Demo to review your service area, priorities, and the stage that fits your business.</p>
+          <a class="button button-primary" href="https://salesai.com/demo" target="_blank" rel="noreferrer">Book a 15-Minute Demo <i data-lucide="arrow-up-right" width="18" height="18"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="timeline-section" id="timeline">
+      <div class="container">
+        <div class="timeline-heading">
+          <div class="eyebrow eyebrow-dark"><span class="eyebrow-dot"></span>The first 90 days</div>
+          <h2>What Happens in Your First 90 Days</h2>
+        </div>
+        <div class="timeline-grid" id="timelineGrid"></div>
+      </div>
+    </section>
+
+    <section class="guarantee-section" id="guarantee">
+      <div class="guarantee-glow"></div>
+      <div class="container guarantee-wrap">
+        <div class="guarantee-card">
+          <div class="guarantee-icon"><i data-lucide="shield-check" width="34" height="34"></i></div>
+          <div class="eyebrow"><span class="eyebrow-dot"></span>Our 90-Day Visibility Guarantee</div>
+          <h2>More Google Business Profile visibility in 90 days, or we keep working at no additional service fee until you get it.</h2>
+          <p>If your Google Business Profile views do not increase during your first 90 days with Create, we will continue the visibility work included in your plan at no additional service fee until they do. Eligibility requirements, customer responsibilities, and exclusions apply.</p>
+          <p class="guarantee-start-date">The 90-day guarantee period begins on the date we receive usable access to your verified Google Business Profile.</p>
+          <strong>No contracts. No hidden fees.</strong>
+          <a class="button button-primary" href="https://salesai.com/demo" target="_blank" rel="noreferrer">Book a 15-Minute Demo <i data-lucide="arrow-up-right" width="18" height="18"></i></a>
+        </div>
+        <div class="guarantee-explainer">
+          <h3>What the guarantee measures</h3>
+          <p>We measure Google Business Profile views using Google Business Profile performance data. Views show visibility, not calls, booked jobs, sales, or revenue. We compare the final 30 complete days of your first 90 days with the 30 complete days immediately before the guarantee start date.</p>
+          <h3>What it does not promise</h3>
+          <p>This is a continued-work guarantee, not a money-back guarantee. It does not promise a specific position or any increase in leads, calls, sales, revenue, or another business result.</p>
+          <p class="legal-note">Guarantee subject to <a href="#/terms">Terms of Service</a>, eligibility requirements, and customer responsibilities. <a href="#/terms/visibility-guarantee">See full guarantee terms for details.</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="fit-section" id="fit">
+      <div class="container fit-grid">
+        <div class="fit-heading">
+          <div class="eyebrow eyebrow-dark"><span class="eyebrow-dot"></span>Who Create is for</div>
+          <h2>Built for HVAC Owners Who Want to Run the Business, <em>Not the Marketing</em></h2>
+        </div>
+        <div class="fit-copy">
+          <p class="fit-lede">Create is for established HVAC companies that want help getting found and chosen locally, without taking the owner away from crews, customers, and the work that keeps the business moving.</p>
+          <p class="fit-alignment">Create is best for owners who want marketing support aligned with their priority services, service areas, seasonal needs, and current capacity.</p>
+          <strong>You are a fit if you want:</strong>
+          <ul>
+            <li><i data-lucide="check" width="16" height="16"></i> More qualified service and replacement opportunities from the areas you serve</li>
+            <li><i data-lucide="check" width="16" height="16"></i> Clear accountability for your marketing investment and confidence it is supporting your business</li>
+            <li><i data-lucide="check" width="16" height="16"></i> Reviews that help homeowners feel confident choosing your company</li>
+            <li><i data-lucide="check" width="16" height="16"></i> A steadier schedule with more service and replacement opportunities outside peak season</li>
+            <li><i data-lucide="check" width="16" height="16"></i> More time to run the business without building an in-house marketing department</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta" id="contact">
+      <div class="final-cta-orb"></div>
+      <div class="container final-cta-inner">
+        <div>
+          <div class="eyebrow"><span class="eyebrow-dot"></span>For Established HVAC Companies</div>
+          <h2>Make Your HVAC Company <em>Easier to Find and Trust Locally</em></h2>
+        </div>
+        <div class="final-cta-copy">
+          <p>Create helps make your company easier to find and trust in the service areas that matter most. When homeowners need HVAC service or replacement, they have more reason to consider you. You can see the work completed and how your Google Business Profile visibility is changing, without taking on the marketing yourself.</p>
+          <a class="button button-primary" href="https://salesai.com/demo" target="_blank" rel="noreferrer">Book a 15-Minute Demo <i data-lucide="arrow-up-right" width="18" height="18"></i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="brand-lockup" aria-label="SalesAI Create">
+        <svg class="brand-icon" viewBox="0 0 40 40" aria-hidden="true"><path d="M9 5h22v22h-7V12H9V5Z" fill="currentColor"/><path d="M5 9h15v7H12v12h12v7H5V9Z" fill="currentColor" opacity=".82"/><circle cx="18" cy="26" r="4.5" fill="#07120f"/></svg>
+        <span class="brand-word">SalesAI</span><span class="brand-divider"></span><span class="brand-product">Create</span>
+      </div>
+      <p>Helping HVAC companies get found and trusted for service and replacement work in the areas they serve.</p>
+      <div class="footer-links"><a href="https://salesai.com/demo">Book a 15-Minute Demo</a></div>
+    </div>
+    <div class="container source-list">
+      <p><strong>Industry data sources, reviewed September 14, 2026.</strong> Statistics are published research or platform guidance, not SalesAI client results.</p>
+      <ol id="sourceList"></ol>
+      <p class="footer-legal">Guarantee subject to <a href="#/terms">Terms of Service</a>, eligibility requirements, and customer responsibilities. <a href="#/terms/visibility-guarantee">See full guarantee terms for details.</a></p>
+      <small>© <span class="year"></span> SalesAI. All rights reserved.</small>
+    </div>
+  </footer>
+</div>
+
+<!-- ============ TERMS OF SERVICE PAGE ============ -->
+<div class="terms-page" id="page-terms" style="display:none">
+  <div class="terms-announcement">
+    <span>SalesAI Create is built for HVAC companies.</span>
+    <a href="#guarantee" data-route="home">View the visibility guarantee</a>
+  </div>
+  <header class="terms-header">
+    <div class="terms-header-inner">
+      <a href="#top" data-route="home" class="terms-brand" aria-label="SalesAI Create home">
+        <div class="brand-lockup" aria-label="SalesAI Create">
+          <svg class="brand-icon" viewBox="0 0 40 40" aria-hidden="true"><path d="M9 5h22v22h-7V12H9V5Z" fill="currentColor"/><path d="M5 9h15v7H12v12h12v7H5V9Z" fill="currentColor" opacity=".82"/><circle cx="18" cy="26" r="4.5" fill="#07120f"/></svg>
+          <span class="brand-word">SalesAI</span><span class="brand-divider"></span><span class="brand-product">Create</span>
+        </div>
+      </a>
+      <a href="#top" data-route="home" class="terms-back-link">Back to Create</a>
+      <a class="button button-primary button-compact" href="https://salesai.com/demo" target="_blank" rel="noreferrer">Book a 15-Minute Demo <i data-lucide="arrow-up-right" width="15" height="15"></i></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="terms-hero">
+      <div class="terms-hero-inner">
+        <div class="eyebrow"><span class="eyebrow-dot"></span>SalesAI Create</div>
+        <h1>Terms of Service</h1>
+        <p class="terms-effective">Effective Date: September 15, 2026</p>
+        <p class="terms-intro">These Terms of Service govern participation in SalesAI Create. The following 90-Day Visibility Guarantee Terms explain the result SalesAI measures, how the measurement is made, who qualifies, and the remedy available if the guaranteed result is not achieved.</p>
+      </div>
+    </section>
+
+    <div class="terms-layout">
+      <nav class="terms-nav" aria-label="Terms sections">
+        <strong>On this page</strong>
+        <a href="#/terms/guarantee">1. The guarantee</a>
+        <a href="#/terms/result">2. Guaranteed result</a>
+        <a href="#/terms/start-date">3. Start date</a>
+        <a href="#/terms/measurement">4. Measurement</a>
+        <a href="#/terms/eligibility">6. Eligibility</a>
+        <a href="#/terms/responsibilities">7. Responsibilities</a>
+        <a href="#/terms/remedy">11. Continued work</a>
+        <a href="#/terms/review">14. Review</a>
+      </nav>
+
+      <article class="terms-content">
+        <h2 id="tos-visibility-guarantee">SalesAI Create 90-Day Visibility Guarantee Terms</h2>
+
+        <section id="tos-guarantee">
+          <h3>1. The guarantee</h3>
+          <p>SalesAI guarantees that an eligible customer’s Google Business Profile views will increase during the first 90 days of SalesAI Create. If the guaranteed increase is not achieved, SalesAI will continue the visibility work included in the customer’s Create plan at no additional service fee until the guaranteed result is achieved.</p>
+          <p>This is a continued-work guarantee. It is not a money-back guarantee and does not provide a refund.</p>
+        </section>
+
+        <section id="tos-result">
+          <h3>2. What counts as the guaranteed result</h3>
+          <p>The guaranteed result is any increase in Google Business Profile views during the measurement period when compared with the baseline period.</p>
+          <p>Google Business Profile views measure visibility. They do not establish or guarantee a specific search position, number of leads, calls, booked jobs, sales, revenue, return on investment, or other business result.</p>
+        </section>
+
+        <section id="tos-start-date">
+          <h3>3. Guarantee start date</h3>
+          <p>The 90-day guarantee period begins on the date SalesAI receives usable access to the customer’s verified Google Business Profile. SalesAI will record this date as the guarantee start date.</p>
+          <p>If the access provided does not permit SalesAI to perform the included work or obtain the required performance data, the guarantee period will not begin until usable access is provided.</p>
+        </section>
+
+        <section id="tos-measurement">
+          <h3>4. Baseline and measurement period</h3>
+          <p>The baseline period is the 30 complete consecutive days immediately before the guarantee start date.</p>
+          <p>The measurement period is the final 30 complete days of the customer’s initial 90-day guarantee period. SalesAI will compare the Google Business Profile views recorded during the measurement period with the views recorded during the baseline period.</p>
+          <p>The guarantee is achieved if the measurement-period total is greater than the baseline-period total.</p>
+        </section>
+
+        <section>
+          <h3>5. Controlling data source</h3>
+          <p>SalesAI will use the performance data available through the customer’s Google Business Profile as the controlling source for the baseline and measurement-period totals.</p>
+          <p>SalesAI will retain a record of the baseline, guarantee start date, and evaluation result. Google may change the names, definitions, availability, or calculation of its performance metrics. If Google replaces the views metric, SalesAI may use the closest reasonably equivalent successor metric and will document that change.</p>
+        </section>
+
+        <section id="tos-eligibility">
+          <h3>6. Eligibility requirements</h3>
+          <p>To qualify for the guarantee, the customer must meet all of the following requirements on the guarantee start date:</p>
+          <ol>
+            <li>The customer must have a verified, active Google Business Profile that is not suspended or disabled.</li>
+            <li>The Google Business Profile must have at least 10 published Google reviews.</li>
+            <li>The customer must provide SalesAI with usable access to the Google Business Profile.</li>
+            <li>The customer must provide accurate business information and the materials reasonably required to perform the included Create work.</li>
+            <li>The customer must not have launched a new website, completed a material website redesign, changed domains, or made another material structural website change during the 90 days before the guarantee start date.</li>
+            <li>The customer must not have received a Google review rated three stars or fewer during the 90 days before the guarantee start date.</li>
+            <li>The customer must disclose any other marketing provider, search optimization provider, paid advertising campaign, or third party that has access to or is making changes to the Google Business Profile, website, or local business listings.</li>
+          </ol>
+          <p>A public street address is not required. An eligible service-area business may qualify without displaying its address publicly.</p>
+          <p>SalesAI will evaluate eligibility during onboarding. If a customer does not qualify, SalesAI will disclose that determination promptly. The customer may choose to proceed with Create without the guarantee if that choice is confirmed in writing.</p>
+        </section>
+
+        <section id="tos-responsibilities">
+          <h3>7. Customer responsibilities during the guarantee period</h3>
+          <p>The customer must maintain usable Google Business Profile access throughout the guarantee period and any continued-work period. The customer must provide requested information and approvals within a reasonable time. The customer must keep its business information accurate and comply with applicable Google Business Profile policies.</p>
+          <p>The customer must notify SalesAI before allowing another person or provider to change the Google Business Profile, website, tracking configuration, local listings, business name, primary category, address, service area, phone number, or other information that could materially affect visibility or measurement.</p>
+          <p>If the customer removes access, delays required information or approvals, supplies inaccurate information, violates platform policies, or permits conflicting third-party changes, SalesAI may pause the guarantee. SalesAI will notify the customer in writing of the reason for the pause and what is required to resume the guarantee.</p>
+        </section>
+
+        <section>
+          <h3>8. Reviews, website changes, and other material events</h3>
+          <p>A material negative-review event, Google Business Profile suspension, website launch, website migration, major redesign, business relocation, change of ownership, change of business name, material change in services, or other event outside the included Create work may affect visibility.</p>
+          <p>If such an event occurs during the guarantee period, SalesAI will review its effect. SalesAI may pause the guarantee, establish a new baseline, or determine that the guarantee no longer applies when the event prevents a fair comparison. SalesAI will provide the customer with written notice and the reason for the decision.</p>
+        </section>
+
+        <section>
+          <h3>9. Seasonal businesses and market-wide changes</h3>
+          <p>Search demand may change because of seasonality, weather, market conditions, economic events, regulatory events, or changes in customer behavior. SalesAI will identify material seasonality during onboarding when reasonably possible.</p>
+          <p>For a clearly seasonal business, SalesAI may use the corresponding 30-day period from the previous year instead of the immediately preceding 30-day period. Any different baseline must be disclosed to the customer in writing before the guarantee start date.</p>
+          <p>SalesAI may also consider reliable market-demand data when a substantial market-wide decline makes the standard comparison misleading. SalesAI will not apply a seasonality or market exception solely because the customer’s own performance declined. Any exception must be supported by documented market evidence and communicated to the customer.</p>
+        </section>
+
+        <section>
+          <h3>10. Paid advertising and third-party activity</h3>
+          <p>The guarantee is intended to measure the visibility affected by the included Create work. The customer must disclose Google Ads, Local Services Ads, or other paid campaigns that may affect Google Business Profile performance data.</p>
+          <p>When paid or third-party activity materially affects the controlling metric, SalesAI will use a reasonable like-for-like comparison when the data permits. If the effect cannot be separated reliably, SalesAI may postpone the evaluation, establish a documented alternative comparison, or determine before the guarantee start date that the customer is not eligible.</p>
+        </section>
+
+        <section id="tos-remedy">
+          <h3>11. The continued-work remedy</h3>
+          <p>If the measurement-period total does not exceed the baseline-period total, SalesAI will continue the visibility work included in the customer’s Create plan without charging an additional Create service fee.</p>
+          <p>The continued-work period lasts until one complete subsequent 30-day reporting period shows Google Business Profile views greater than the baseline-period total, provided the customer remains eligible and satisfies the customer responsibilities in these terms.</p>
+          <p>The continued-work remedy covers only the visibility work included in the customer’s existing Create plan. It does not include advertising spend, third-party charges, taxes, optional services, website development, reputation-management services, or work outside the Create plan unless SalesAI agrees otherwise in writing.</p>
+          <p>Regular Create service billing resumes with the next billing cycle after the guaranteed result is achieved.</p>
+        </section>
+
+        <section>
+          <h3>12. Events outside SalesAI’s control</h3>
+          <p>SalesAI does not control Google’s algorithms, products, policies, reporting systems, platform availability, suspensions, metric definitions, or decisions about how and when a Business Profile appears.</p>
+          <p>SalesAI is not responsible for delays or measurement problems caused by platform outages, unavailable or incomplete Google data, unlawful activity, customer or third-party interference, force majeure events, or other circumstances outside SalesAI’s reasonable control. When reasonably possible, SalesAI will document the issue and use a fair alternative evaluation date or method rather than relying on an undisclosed exception.</p>
+        </section>
+
+        <section>
+          <h3>13. Exclusive guarantee remedy</h3>
+          <p>Continued performance of the included Create visibility work at no additional service fee is the customer’s sole remedy under this guarantee. The guarantee does not entitle the customer to a refund, reimbursement, credit for prior service fees, or payment for alleged lost revenue or opportunities.</p>
+          <p>Nothing in these guarantee terms changes any right or obligation that cannot lawfully be limited under applicable law.</p>
+        </section>
+
+        <section id="tos-review">
+          <h3>14. Guarantee review</h3>
+          <p>SalesAI will review the controlling Google Business Profile data after the initial 90-day period. A customer may request a review of the calculation or eligibility decision through the customer’s SalesAI account contact.</p>
+          <p>SalesAI will provide the baseline period, measurement period, recorded view totals, and the reason for its decision upon reasonable request.</p>
+        </section>
+
+        <section>
+          <h3>15. Relationship to the remaining Terms of Service</h3>
+          <p>These guarantee terms form part of the SalesAI Create Terms of Service. If another provision conflicts with these guarantee terms concerning the 90-Day Visibility Guarantee, these guarantee terms control for that issue.</p>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <footer class="terms-footer">
+    <div class="terms-footer-inner">
+      <div class="terms-footer-top">
+        <a href="#top" data-route="home" class="terms-brand" aria-label="SalesAI Create home">
+          <div class="brand-lockup" aria-label="SalesAI Create">
+            <svg class="brand-icon" viewBox="0 0 40 40" aria-hidden="true"><path d="M9 5h22v22h-7V12H9V5Z" fill="currentColor"/><path d="M5 9h15v7H12v12h12v7H5V9Z" fill="currentColor" opacity=".82"/><circle cx="18" cy="26" r="4.5" fill="#07120f"/></svg>
+            <span class="brand-word">SalesAI</span><span class="brand-divider"></span><span class="brand-product">Create</span>
+          </div>
+        </a>
+        <p>Helping HVAC companies get found and trusted for service and replacement work in the areas they serve.</p>
+        <a class="button button-primary button-compact" href="https://salesai.com/demo" target="_blank" rel="noreferrer">Book a 15-Minute Demo <i data-lucide="arrow-up-right" width="15" height="15"></i></a>
+      </div>
+      <div class="terms-footer-meta">
+        <span>© <span class="year"></span> SalesAI. All rights reserved.</span>
+        <a href="#top" data-route="home">Return to SalesAI Create</a>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<script>
+const stats = [
+  { value: "78%", copy: "of homeowners search online before contacting an HVAC company, and 52% choose the first company they contact.", context: "Reported by Marketing LTB. The article does not publish study methodology.", source: "Marketing LTB, 2026", href: "https://marketingltb.com/blog/statistics/hvac-marketing-statistics/" },
+  { value: "91%", copy: "of 400 homeowner respondents rated online reviews as important when choosing an HVAC contractor.", context: "HVAC-specific homeowner research.", source: "ACHR News and Clear Seas Research, 2024", href: "https://www.achrnews.com/articles/155206-91-of-homeowners-rely-on-online-reviews-before-picking-contractors" },
+  { value: "47%", copy: "of surveyed U.S. consumers would not use a business with fewer than 20 reviews. Another 31% would only use one rated 4.5 stars or higher.", context: "General local-business consumer research.", source: "BrightLocal, 2026", href: "https://www.brightlocal.com/research/local-consumer-review-survey/" },
+  { value: "88%", copy: "of surveyed U.S. consumers would use a business that responds to positive and negative reviews, versus 47% for one that never responds.", context: "General local-business consumer research.", source: "BrightLocal, 2024", href: "https://www.brightlocal.com/research/local-consumer-review-survey-2024/" },
+  { value: "2.7\u00d7", copy: "more likely to be considered reputable when customers find a complete Business Profile on Google Search and Maps.", context: "Google-hosted Business Profile guidance also reports customers are 70% more likely to visit.", source: "Google Business Profile Help Community, 2024", href: "https://support.google.com/business/thread/298203073/profile-says-incomplete?hl=en" },
+  { value: "88%", copy: "of smartphone users who looked up local information took action within a day.", context: "The Google and Ipsos study separately reported calls and visits among common actions.", source: "Google and Ipsos, 2011", href: "https://www.gstatic.com/ads/research/en/2011_TheMobileMovement.pdf" }
+];
+const benefits = [
+  { title: "Be easier to find when local homeowners need HVAC help", icon: "search" },
+  { title: "Build reviews that give homeowners more reason to choose you", icon: "star" },
+  { title: "Reach homeowners looking for the service and replacement work you provide", icon: "phone-call" },
+  { title: "Know what is being done, why it matters, and what comes next", icon: "file-text" },
+  { title: "Build a local presence that is not dependent on shared leads", icon: "target" },
+  { title: "Get marketing support without having to manage it yourself", icon: "trending-up" }
+];
+const stages = [
+  { number: "01", title: "Get Found Locally", icon: "gauge",
+    summary: "Put the essentials in place so homeowners in your service area can find clear business information, see a credible local presence, and contact your company.",
+    included: [
+      "Google Business Profile improvements that make key company information easier for homeowners to find and use",
+      "Ongoing local visibility work handled for you each month",
+      "Accurate company information across local search and directory sites",
+      "A review-request process for completed jobs",
+      "A monthly owner update showing completed work and local visibility activity",
+      "A service-area competitor review to identify gaps in how your company is presented online"
+    ] },
+  { number: "02", title: "Build Trust Before the Call", icon: "search",
+    summary: "Build the review and local-search foundation that can help your company present more credibly when homeowners compare AC repair, furnace replacement, and maintenance providers.",
+    included: [
+      "All Stage 1 work",
+      "A review-request and response process designed to support local trust",
+      "Automatic review requests after completed jobs, so asking does not depend on your team remembering",
+      "Review responses that show homeowners an active, accountable company",
+      "Local-search work focused on the HVAC services and communities where you want more qualified opportunities"
+    ] },
+  { number: "03", title: "Build Trust and Track Inquiries", icon: "shield-check",
+    summary: "Make it easier for homeowners to find useful service information while giving you clearer visibility into the marketing sources behind phone inquiries.",
+    included: [
+      "All Stage 1 and Stage 2 work",
+      "Call-source tracking to show which marketing sources generated phone inquiries",
+      "Service and replacement information that helps homeowners understand what you offer before they call",
+      "Dedicated pages for priority HVAC services and communities, making relevant information easier to find",
+      "Local credibility work that supports how your company is discovered online"
+    ] },
+  { number: "04", title: "Expand What Works", icon: "trending-up",
+    summary: "Once the core work is in place, add paid media and automation around the services, areas, and priorities that matter most to your company.",
+    included: [
+      "All Stage 1, Stage 2, and Stage 3 work",
+      "Paid advertising focused on the services and communities that fit your growth priorities",
+      "Automation that reduces routine marketing coordination for your team",
+      "A market plan matched to your service mix, service area, and capacity"
+    ] }
+];
+const timeline = [
+  { days: "DAYS 1 TO 30", title: "Make It Easier to Be Found and Trusted Locally",
+    copy: "We improve the business information homeowners see when they search for HVAC help, so they can quickly understand your services, service area, and how to contact you. We make your business details more consistent across relevant local listings, set up a simple way to request reviews after completed jobs, and provide a plainspoken monthly update showing what we completed, what changed, and what we will prioritize next." },
+  { days: "DAYS 31 TO 60", title: "Focus Your Visibility on the HVAC Work You Want More Of",
+    copy: "We finish extending consistent business details across relevant local listings, begin sending review requests after completed jobs, and focus local visibility work on the HVAC services and service areas that matter most to your business." },
+  { days: "DAYS 61 TO 90", title: "Make It Easier for Ready-to-Hire Homeowners to Contact You",
+    copy: "We review the business details homeowners see, the way reviews are answered, and the information they use to compare HVAC companies, then make it easier for them to contact you. Your 90-day update shows the work completed, the visibility data available, and the next priorities for the service areas you want to grow." }
+];
+
+function esc(s){ return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+function refreshIcons(){
+  document.querySelectorAll("i[data-lucide]").forEach(function(el){
+    var n = el.getAttribute("data-lucide");
+    var w = el.getAttribute("width") || 24, ht = el.getAttribute("height") || 24;
+    var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    svg.setAttribute("class", "lucide lucide-" + n);
+    svg.setAttribute("width", w); svg.setAttribute("height", ht);
+    svg.setAttribute("viewBox", "0 0 24 24");
+    svg.setAttribute("fill", "none");
+    svg.setAttribute("stroke", "currentColor");
+    svg.setAttribute("stroke-width", "2");
+    svg.setAttribute("stroke-linecap", "round");
+    svg.setAttribute("stroke-linejoin", "round");
+    var use = document.createElementNS("http://www.w3.org/2000/svg", "use");
+    use.setAttribute("href", "#lu-" + n);
+    svg.appendChild(use);
+    el.replaceWith(svg);
+  });
+}
+
+// Stats grid
+document.getElementById("statsGrid").innerHTML = stats.map((s,i) =>
+  '<article class="stat-card' + ((i===1||i===4)?" stat-card-accent":"") + '">' +
+  '<span class="stat-index">0' + (i+1) + '</span>' +
+  '<strong>' + s.value + '</strong>' +
+  '<p>' + esc(s.copy) + '</p>' +
+  '<small>' + esc(s.context) + '</small>' +
+  '<a href="' + s.href + '" target="_blank" rel="noreferrer">' + esc(s.source) + ' <i data-lucide="arrow-up-right" width="12" height="12"></i></a>' +
+  '</article>').join("");
+
+// Benefits grid
+document.getElementById("benefitsGrid").innerHTML = benefits.map((b,i) =>
+  '<article class="benefit-card"><span>0' + (i+1) + '</span><i data-lucide="' + b.icon + '" width="24" height="24"></i><h3>' + esc(b.title) + '</h3></article>').join("");
+
+// Timeline grid
+document.getElementById("timelineGrid").innerHTML = timeline.map((t,i) =>
+  '<article class="timeline-card' + (i===1?" timeline-card-active":"") + '">' +
+  '<div class="timeline-top"><span>0' + (i+1) + '</span><small>' + t.days + '</small></div>' +
+  '<h3>' + esc(t.title) + '</h3><p>' + esc(t.copy) + '</p>' +
+  '<div class="timeline-result"><i data-lucide="check" width="15" height="15"></i> Clear progress and next steps</div></article>').join("");
+
+// Source list
+document.getElementById("sourceList").innerHTML = stats.map((s,i) =>
+  '<li><a href="' + s.href + '" target="_blank" rel="noreferrer">[' + (i+1) + '] ' + esc(s.source) + '</a></li>').join("");
+
+// Stage tabs
+let activeStage = 0;
+const stageTabsEl = document.getElementById("stageTabs");
+const stageCopyEl = document.getElementById("stageCopy");
+function renderStages(){
+  stageTabsEl.innerHTML = stages.map((s,i) =>
+    '<button class="stage-tab' + (activeStage===i?" stage-tab-active":"") + '" role="tab" aria-selected="' + (activeStage===i) + '" data-stage="' + i + '"><span>' + s.number + '</span>' + esc(s.title) + '</button>').join("");
+  const s = stages[activeStage];
+  stageCopyEl.innerHTML =
+    '<div class="stage-icon"><i data-lucide="' + s.icon + '" width="27" height="27"></i></div>' +
+    '<span>STAGE ' + s.number + '</span>' +
+    '<h3>' + esc(s.title) + '</h3>' +
+    '<p>' + esc(s.summary) + '</p>' +
+    '<strong>Included</strong>' +
+    '<ul>' + s.included.map(item => '<li><i data-lucide="check" width="14" height="14"></i> ' + esc(item) + '</li>').join("") + '</ul>';
+  refreshIcons();
+}
+stageTabsEl.addEventListener("click", (e) => {
+  const btn = e.target.closest("[data-stage]");
+  if (!btn) return;
+  activeStage = Number(btn.dataset.stage);
+  renderStages();
+});
+renderStages();
+
+// Header scroll state
+const header = document.getElementById("siteHeader");
+function onScroll(){ header.classList.toggle("site-header-scrolled", window.scrollY > 20); }
+window.addEventListener("scroll", onScroll, { passive: true });
+onScroll();
+
+// Mobile menu
+const menuButton = document.getElementById("menuButton");
+const mobileNav = document.getElementById("mobileNav");
+let menuOpen = false;
+function setMenu(open){
+  menuOpen = open;
+  mobileNav.style.display = open ? "" : "none";
+  menuButton.setAttribute("aria-expanded", String(open));
+  menuButton.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+  menuButton.innerHTML = '<i data-lucide="' + (open ? "x" : "menu") + '" width="24" height="24"></i>';
+  refreshIcons();
+}
+menuButton.addEventListener("click", () => setMenu(!menuOpen));
+mobileNav.addEventListener("click", (e) => { if (e.target.closest("a")) setMenu(false); });
+
+// Year
+document.querySelectorAll(".year").forEach(el => el.textContent = new Date().getFullYear());
+
+// Hash routing between home and terms
+const pageHome = document.getElementById("page-home");
+const pageTerms = document.getElementById("page-terms");
+function route(){
+  const hash = window.location.hash || "";
+  if (hash.indexOf("#/terms") === 0) {
+    pageHome.style.display = "none";
+    pageTerms.style.display = "";
+    document.title = "Terms of Service | SalesAI Create";
+    const section = hash.split("/")[2];
+    if (section) {
+      requestAnimationFrame(() => {
+        const el = document.getElementById("tos-" + section);
+        if (el) el.scrollIntoView();
+      });
+    } else {
+      window.scrollTo(0, 0);
+    }
+  } else {
+    const wasTerms = pageTerms.style.display !== "none";
+    pageTerms.style.display = "none";
+    pageHome.style.display = "";
+    document.title = "SalesAI Create for HVAC Companies | Get Found and Trusted Locally";
+    if (wasTerms && hash && hash.indexOf("#/") !== 0) {
+      requestAnimationFrame(() => {
+        const el = document.querySelector(hash);
+        if (el) el.scrollIntoView();
+      });
+    }
+  }
+  refreshIcons();
+}
+window.addEventListener("hashchange", route);
+route();
+refreshIcons();
+</script>
+</body>
+</html>
